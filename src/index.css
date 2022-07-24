@@ -6,6 +6,10 @@
 
 .App {
   background: #e5e5e5;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 body {
@@ -20,21 +24,24 @@ body {
   width: 550px;
   margin: auto;
   height: 55px;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 11px 11px 11px darkgray;
 }
 
 .nav h2 {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
-  font-size: 14.4608px;
+  font-size: 17px;
   line-height: 18px;
   letter-spacing: -0.075em;
   color: #ffffff;
 }
 
 .img-globe {
-  width: 24px;
+  width: 25px;
   margin-right: 11px;
+  border-radius: 50%;
 }
 
 .card {
@@ -43,7 +50,8 @@ body {
   display: flex;
   margin: auto;
   justify-content: center;
-  padding: 44px 0 0 0;
+  padding: 36px 0 0 0;
+  box-shadow: 11px 11px 11px darkgray;
 }
 
 .info-section {
@@ -120,4 +128,13 @@ body {
   line-height: 150%;
   color: #2b283a;
   margin-top: 9px;
+}
+
+.footer {
+  text-align: center;
+  background: white;
+  color: transparent;
+  font-size: 22px;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 11px 11px 11px darkgray;
 }
