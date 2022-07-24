@@ -5,7 +5,10 @@
 }
 
 .App {
-  background: #e5e5e5;
+  background-image: url('https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   display: grid;
   align-items: center;
   justify-content: center;
@@ -25,7 +28,7 @@ body {
   margin: auto;
   height: 55px;
   border-radius: 5px 5px 0 0;
-  box-shadow: 11px 11px 11px darkgray;
+  box-shadow: 11px 1px 33px #333;
 }
 
 .nav h2 {
@@ -50,8 +53,8 @@ body {
   display: flex;
   margin: auto;
   justify-content: center;
-  padding: 36px 0 0 0;
-  box-shadow: 11px 11px 11px darkgray;
+  box-shadow: 11px 33px 22px #333;
+  padding: 25px 0;
 }
 
 .info-section {
@@ -136,5 +139,5 @@ body {
   color: transparent;
   font-size: 22px;
   border-radius: 0 0 5px 5px;
-  box-shadow: 11px 11px 11px darkgray;
+  box-shadow: 11px 11px 22px #333;
 }

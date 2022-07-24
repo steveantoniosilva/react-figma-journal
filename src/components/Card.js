@@ -24,6 +24,7 @@ export default function Card(props) {
           <h1>{props.item.endDate}</h1>
         </div>
         <p className='description'>{props.item.description}</p>
+        <p className="end"></p>
       </div>
     </div>
   );

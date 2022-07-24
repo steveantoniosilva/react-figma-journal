@@ -3,7 +3,6 @@ const data = [
     id: 1,
     title: 'Sawtooth Mountains',
     location: 'Idaho',
-    googleMapsUrl: 'https://goo.gl/maps/1DGM5WrWnATgkSNB8',
     startDate: '12 Jan, 2018',
     endDate: '24 Jan, 2018',
     description:
@@ -17,11 +16,10 @@ const data = [
     id: 2,
     title: 'Burj Khalifa',
     location: 'Dubai',
-    googleMapsUrl: 'https://goo.gl/maps/1DGM5WrWnATgkSNB8',
     startDate: '8 Jul, 2019',
     endDate: '15 Jan, 2019',
     description:
-      'Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.',
+      "The Burj Khalifa is a megatall skyscraper in Dubai, United Arab Emirates, the building is best known for being the world's tallest skyscraper.",
     imageUrl:
       'https://gracebuildingblog.files.wordpress.com/2014/09/burj-khalifa-sunset-shawn-everhart.jpg',
     googleMapsUrl:
@@ -31,7 +29,6 @@ const data = [
     id: 3,
     title: 'Blue Ridge Parkway',
     location: 'North Carolina',
-    googleMapsUrl: 'https://goo.gl/maps/1DGM5WrWnATgkSNB8',
     startDate: '11 Dec, 2020',
     endDate: '29 Dec, 2020',
     description:

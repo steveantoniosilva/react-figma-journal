@@ -14,7 +14,7 @@ export default function App() {
       <div>
         <Navbar />
         <section>{cards}</section>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </div>
   );
