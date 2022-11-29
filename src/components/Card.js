@@ -12,9 +12,15 @@ export default function Card(props) {
       </div>
       <div className='info-section'>
         <div className='location-info'>
-          <img src={marker} alt='' />
+          <img
+            src={marker}
+            alt=''
+          />
           <h1>{props.item.location}</h1>
-          <a href={props.item.googleMapsUrl} target='_blank' rel='noreferrer'>
+          <a
+            href={props.item.googleMapsUrl}
+            target='_blank'
+            rel='noreferrer'>
             <h2>View on Google Maps</h2>
           </a>
         </div>
@@ -24,8 +30,8 @@ export default function Card(props) {
           <h1>{props.item.endDate}</h1>
         </div>
         <p className='description'>{props.item.description}</p>
-        <p className="end"></p>
-          </div>
+        <p className='end'></p>
+      </div>
     </div>
   );
 }
