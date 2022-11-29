@@ -80,7 +80,7 @@
 }
 
 .location-info:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .dates {
@@ -125,9 +125,6 @@
   }
   .main-image {
     border-radius: 5px;
-    width: 244px;
-    object-fit: cover;
-    height: 244px;
     margin-left: 3em;
     margin-bottom: 0;
   }
