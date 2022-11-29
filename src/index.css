@@ -17,7 +17,7 @@
 
 .nav {
   display: flex;
-  background: orangered;
+  background: red;
   align-items: center;
   justify-content: center;
   margin: 0.5em auto;
@@ -77,6 +77,10 @@
   text-decoration-line: underline;
   color: #918e9b;
   margin: 5px;
+}
+
+.location-info:hover {
+    cursor: pointer;
 }
 
 .dates {
